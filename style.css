@@ -22,7 +22,7 @@ main{
                 justify-content: space-between;
                 .nav-logo{
                     display: flex;
-                    
+                    align-items: center;
                     & p{
                     font-family: 'Poppins', sans-serif;
                     display: flex;
@@ -47,7 +47,10 @@ main{
                         margin-left: 150px;
                         text-decoration: none;
                         color: #2398bb;
-                        
+                    }
+                   &  img{
+                        width: 40px;
+                        height: 40px;
                     }
                 }
                 
